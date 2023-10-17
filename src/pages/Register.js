@@ -20,7 +20,7 @@ const Register = () => {
       setUserInfo({ ...userInfo, [e.target.name]: e.target.value });
     }
   };
-
+  //testing 123
   const handleFormSubmit = (e) => {
     e.preventDefault();
     register_mutate();
