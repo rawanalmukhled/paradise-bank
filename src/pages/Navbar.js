@@ -29,19 +29,14 @@ const Navbar = () => {
             <div className="ml-10 flex items-baseline space-x-4">
               <NavLink
                 to="/"
-                className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                className="text-white hover:bg-gray-200 hover:text-gray-600 px-3 py-2 rounded-md text-sm font-medium"
               >
                 Home
               </NavLink>
-              {/* <NavLink
-                to="/notes"
-                className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-              >
-                Notes
-              </NavLink> */}
+
               <NavLink
                 to="/users"
-                className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                className="text-white hover:bg-gray-200 hover:text-gray-600 px-3 py-2 rounded-md text-sm font-medium"
               >
                 Users
               </NavLink>
@@ -49,18 +44,18 @@ const Navbar = () => {
               {user ? (
                 <>
                   <Link to="/transactions">
-                    <button className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                    <button className="text-white hover:bg-gray-200 hover:text-gray-600 px-3 py-2 rounded-md text-sm font-medium">
                       Transactions
                     </button>
                   </Link>
                   <Link to="/profile">
-                    <button className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                    <button className="text-white hover:bg-gray-200 hover:text-gray-600 px-3 py-2 rounded-md text-sm font-medium">
                       Profile
                     </button>
                   </Link>
                   <button
                     onClick={handleLogout}
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-white hover:bg-gray-200 hover:text-gray-600 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Logout
                   </button>
@@ -69,13 +64,13 @@ const Navbar = () => {
                 <>
                   <NavLink
                     to="/login"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-white hover:bg-gray-200 hover:text-gray-600 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Login
                   </NavLink>
                   <NavLink
                     to="/register"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-white hover:bg-gray-200 hover:text-gray-600 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Register
                   </NavLink>
